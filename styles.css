@@ -1,13 +1,10 @@
-h1 {
-    text-align:center;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+
+    background-color: whitesmoke;
     
 }
 
-nav {
-    background-color: goldenrod;
-}
-h2 {
+#header {
     text-align:center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     size:30px;
@@ -21,11 +18,9 @@ ul {
     margin: 0;
     padding:0;
     background-color: goldenrod;
-    
-
-    
 
 }
+
 li {
     display:inline;
     
@@ -43,13 +38,7 @@ li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section img {
-    margin: auto;
-    display: block;
-    width: 100%;
-}
-
-video {
+.image {
     margin: auto;
     display: block;
     width: 100%;
@@ -66,7 +55,7 @@ section {
 section figcaption {
     margin:inherit;
     font-family: 'Times New Roman', Times, serif;
-    size:8px;
+    size:6px;
     text-align: right;
     font-style:italic;
     margin-bottom:20px;
